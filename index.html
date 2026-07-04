@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>User Profile Card Generator</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="container">
+    <h1>User Profile Card Generator</h1>
+
+    <form id="profileForm">
+      <input type="text" id="name" placeholder="Enter your name" required>
+
+      <input type="email" id="email" placeholder="Enter your email" required>
+
+      <input type="text" id="phone" placeholder="Enter your phone number" required>
+
+      <input type="number" id="age" placeholder="Enter your age" required>
+
+      <input type="text" id="skills" placeholder="Enter your skills">
+
+      <textarea id="bio" placeholder="Write a short bio"></textarea>
+
+      <input type="text" id="image" placeholder="Paste profile image URL">
+
+      <button type="submit">Generate Profile Card</button>
+    </form>
+
+    <div id="profileCard" class="profile-card"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
